@@ -44,6 +44,3 @@ c.	How can this website be made more attractive? Mention minimum 3 changes you w
     3.	Different website name. 
 
 
-**Bold** and _Italic_ and `Code` text
-
-
