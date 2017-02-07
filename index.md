@@ -11,7 +11,6 @@ c.	How can this website be made more attractive? Mention minimum 3 changes you w
 
 
 ```markdown
-Syntax highlighted code block
 
 ### Person1
 a.	What was your first impression?
@@ -44,3 +43,7 @@ c.	How can this website be made more attractive? Mention minimum 3 changes you w
     3.	Different website name. 
 
 
+### My Reflection
+Since this website is not a finished product i understand when all pointed out towards using pictures.
+The people i asked are the real target users who are actually going to use this site and i'm glad that they liked the idea and helped me guiding what would attract them.
+None of the usrs have tried to use the functional part so i got no feedback on its functionality.
