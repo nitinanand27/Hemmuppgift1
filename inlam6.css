@@ -1,1 +1,39 @@
-button{    background-color: greenyellow;}
+body{	
+	font-family: Helvetica;
+    font-size: 14px;
+    line-height: 2;
+    color: #333;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+}
+
+
+fieldset {
+    display: block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    border-width: 2px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 2px 12px;
+	  margin-top: 10px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
