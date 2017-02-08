@@ -1,50 +1,37 @@
-<!Doctype html>
-
-
+<!DOCTYPE html>
+<html lang="en">
+	
 <head>
     <meta charset="utf-8">
-    <title>Inlämningsuppgift 6</title>
+    <title>Inlämningsuppgift-6</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="inlam6.css" />
-
+    <link href="inlam6.css" rel="stylesheet">
 </head>
-
-
-<html lang="en">
+	
+<body>
 <div class="container">
-	<div class="row-fluid">
-      <form class="form-horizontal">
-        <fieldset>
-          <div id="legend">
-            <legend class="">Payment</legend>
-          </div>
-     
-          <!-- Name -->
-          <div class="control-group">
-            <label class="control-label"  for="username">Card Holder's Name</label>
-            <div class="controls">
-              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
-            </div>
-          </div>
-     
-          <!-- Card Number -->
-          <div class="control-group">
-            <label class="control-label" for="email">Card Number</label>
-            <div class="controls">
-              <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
-            </div>
-          </div>
-     
-          <!-- Expiry-->
-          <div class="control-group">
-            <label class="control-label" for="password">Card Expiry Date</label>
-            <div class="controls">
-              <select class="span3" name="expiry_month" id="expiry_month">
-                <option></option>
+  <form class="form-horizontal" role="form">
+    <fieldset>
+      <legend>Payment</legend>
+      <div class="form-group">
+        <label class="col-sm-3 control-label" for="card-holder-name">Name on Card</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-3 control-label" for="card-number">Card Number</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Debit/Credit Card Number">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-3 control-label" for="expiry-month">Expiration Date</label>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-xs-3">
+              <select class="form-control col-sm-2" name="expiry-month" id="expiry-month">
+                <option>Month</option>
                 <option value="01">Jan (01)</option>
                 <option value="02">Feb (02)</option>
                 <option value="03">Mar (03)</option>
@@ -54,11 +41,13 @@
                 <option value="07">July (07)</option>
                 <option value="08">Aug (08)</option>
                 <option value="09">Sep (09)</option>
-                <option value="10">Oct (10)</option>1
+                <option value="10">Oct (10)</option>
                 <option value="11">Nov (11)</option>
                 <option value="12">Dec (12)</option>
               </select>
-              <select class="span2" name="expiry_year">
+            </div>
+            <div class="col-xs-3">
+              <select class="form-control" name="expiry-year">
                 <option value="13">2013</option>
                 <option value="14">2014</option>
                 <option value="15">2015</option>
@@ -73,33 +62,23 @@
               </select>
             </div>
           </div>
-     
-          <!-- CVV -->
-          <div class="control-group">
-            <label class="control-label"  for="password_confirm">Card CVV</label>
-            <div class="controls">
-              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="span2">
-            </div>
-          </div>
-     
-          <!-- Save card -->
-          <div class="control-group">
-            <div class="controls">
-              <label class="checkbox" for="save_card">
-                <input type="checkbox" id="save_card" value="option1">
-                Save card on file?
-              </label>
-            </div>
-          </div>
-     
-          <!-- Submit -->
-          <div class="control-group">
-            <div class="controls">
-              <button class="btn btn-success">Pay Now</button>
-            </div>
-          </div>
-     
-        </fieldset>
-      </form>
-    </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-3 control-label" for="cvv">Card CVV</label>
+        <div class="col-sm-3">
+          <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+		
+          <button type="button" class="btn btn-success">Pay Now</button>
+		
+        </div>
+      </div>
+    </fieldset>
+  </form>
 </div>
+</body>
+</html>
