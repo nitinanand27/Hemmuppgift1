@@ -3,174 +3,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Kontakta Oss</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/MKN.css" />
-
-    <!-- Link to Validation JS File -->
-    <script type="text/javascript" src="js/FormValidation.js"></script>
-
 </head>
 
 
 <body>
+	<div>
+		<h5>Klient Side Programmering Hemuppgift</h5>
+	</div>
+	
+1.	Go to http://bring.azurewebsites.net/
+2.	Surf for 5 minutes
+3.	Give your views, on your experience by replying to 3 questions
+a. What was your first impression? 
+b. What do you think this website is about? 
+c. How can this website be made more attractive? Mention minimum 3 changes you would do.
 
-    <!--NAVIGATION BAR-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="MKN.html"><img src="img/logosmall.png"></a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="MKN.html">Home</a></li>
-                    <li><a href="omoss.html">Om MKN Arena</a></li>
-                    <li><a href="Events.html">Events</a></li>
-                    <li><a href="Nyheter.html">Nyheter</a></li>
-                    <li class="active_link"><a href="Kontakt.html">Kontakta Oss</a></li>
+	<h6>Person1</h6>
+a.  What was your first impression?
+    Very good idea. Humble and simple
+b.  What do you think this website is about?
+    its good for people who travelling first time abroad and  get company from who is travelling same time and date and destinations
+    Give very good web id for easy to remember
+c.  How can this website be made more attractive? Mention minimum 3 changes you would do.
+    Travelers contact number, pictures, more pictures.
 
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="search" placeholder="sök här">
-                        </div>
-                        <button class="btn btn-default" type="submit">Sök</button>
-                    </form>
-                </ul>
+<h6>Person2</h6>
+a.  What was your first impression?
+    The website is about something fishy. As it does not give the clear picture of what is it about.
+b.  What do you think this website is about?
+    International Luggage Transfer
+c.  How can this website be made more attractive? Mention minimum 3 changes you would do.
 
-                <div>
-                    <ul class="nav navbar-nav navbar-right" id="social-media-icons">
-                        <li>
-                            <a href="#"><img class="img-circle" src="img/facebook.png"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img class="img-rounded" src="img/instagram.png"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img class="img-circle" src="img/twitter.png"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+1.  Webpage something like Airbnb or uber would be great. 
+2.  If in Sweden, you can start using bankid (for safety)
+3.  Pricing factor should be clearly stated
+
+<h6>Person3</h6>
+a.  What was your first impression?
+    First impression: Page looked empty. But that made me curious to know what is it about. 
+b.  What do you think this website is about?
+    I think, the website is about planning travels and saving different trips for each registered users. It also looks like it is a         travel agency website, where one can make trip bookings. 
+c.  How can this website be made more attractive? Mention minimum 3 changes you would do.
+    1.  Little bit more content
+    2.  Pictures always attracts
+    3.  Different website name. 
 
 
-    <!--HEADER-->
-
-    <div class="jumbotron text-center semi-transparent">
-        <h1>Kontakta Oss</h1>
-    </div>
-
-    <!--KONTAKT FORM & GOOGLE MAP-->
-
-    <div class="container-fluid">
-        <div class="row-fluid" id="mapform">
-
-            <div class="col-md-6 semi-transparent top-space">
-                <form role="form" class="form-horizontal" name="myForm" action="#" onsubmit="return validate()" method="post">
-
-                    <div class="form-group">
-
-                        <label class="control-label col-md-2" for="name">Namn</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="name" placeholder="skriv namn här">
-                        </div>
-
-                    </div>
-
-                    <div class="form-group">
-                        <label class="control-label col-md-2" for="email">Epost</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" id="email" placeholder="skriv mailadress här">
-                        </div>
-                    </div>		
-					
-					
-					<div class="form-group">
-
-                        <label class="control-label col-md-2" for="age">Age</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="age" placeholder="ex. 20">
-                        </div>
-
-                    </div>		
-					
-					
-					<div class="form-group">
-
-                        <label class="control-label col-md-2" for="date">Date</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="date" size="10" placeholder="åååå-mm-dd">
-                        </div>
-
-                    </div>
-
-                    <div class="form-group">
-                        <label class="control-label col-md-2" for="msg">Meddelande </label>
-                        <div class="col-md-10">
-                            <textarea class="form-control" rows="10" id="msg" placeholder="skriv meddelande här"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-md-10">
-                            <button type="submit" class="btn btn-default" id="btn">Skicka</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="col-md-6">
-
-                <!--GOOGLE MAP-->
-                <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2132.987751330085!2d11.998055716156319!3d57.68268684897433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff3bb5802d833%3A0x31a9eac677602587!2zTcO2bG5kYWxzdsOkZ2VuIDgxLCA0MTIgNjMgR8O2dGVib3Jn!5e0!3m2!1ssv!2sse!4v1458595545394" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container-fluid" id="downcont">
-
-        <!--FOOTER container-->
-
-        <footer class="container-fluid navbar-fixed-bottom" id="home-footer">
-            <!--Address-->
-
-            <div class="col-md-4">
-                <p><span class="glyphicon glyphicon-map-marker"></span> Mölndalsvägen 81 41321 Göteborg</p>
-                <p><span class="glyphicon glyphicon-phone"></span> 0046 321-7656</p>
-                <a href="#" id="email"><span class="glyphicon glyphicon-envelope"></span> malinitimera@mknarena.se</a>
-            </div>
-
-            <!--MKN-->
-            <div class="col-md-4 text-center">
-                <h5><strong>&copy; MKN Arena AB, Sverige</strong></h5>
-            </div>
-
-            <!--Samarbetspartners-->
-
-            <div id="sponsor">Samarbetspartners:
-                <a href="http://www.biljettforum.se"><img src="img/biljettforumsmall.png"></a>
-                <a href="http://www.bengans.se"><img src="img/benganssmall.png"></a>
-                <a href="http://www.t-shirtstore.se"><img src="img/tssmall.png"></a>
-            </div>
-        </footer>
-
-    </div>
-
+<h5>My Reflection</h5>
+	<div>
+Since this website is not a finished product i understand when all pointed out towards using pictures?
+The people I asked are the real target users who are actually going to use this site and I’m glad that they liked the idea and helped me guiding what would attract them.
+None of the users have tried to use the functional part so i got no feedback on its functionality.
+	</div>
 
 </body>
 
