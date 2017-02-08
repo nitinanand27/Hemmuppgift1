@@ -46,7 +46,7 @@ label{
 font-weight:600;
 }
 
-.text-on-hover {cursor: pointer; font-size:12px;}
+.text-on-hover {cursor: initial; font-size:12px;}
 
 .text-on-hover:hover:before {opacity: 1;}
 .text-on-hover:before {
