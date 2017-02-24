@@ -1,0 +1,8 @@
+*{
+  border : 1px dotted pink;
+ font-size: 12px;
+}
+
+button{
+	visibility: hidden;
+}
