@@ -39,7 +39,6 @@ let array=[];
 	for(let a of this.state.jsonList){
 		array.push(a);
 	}
-//console.log(array);
 var list = array.filter(x => x.name.includes(ftext))
 				.map(x => <ListItem key= {x.name} name={x.name} pop= {x.population} changeEvent = {this.handleChange} ></ListItem>);					 
 
@@ -76,7 +75,7 @@ return <p>{this.props.info}</p>;
 
 class ListItem extends React.Component{
 render(){
-return <li key={this.props.key1} onClick= {this.props.changeEvent}>Name: <b>{this.props.name}</b>, &emsp; Population:<b>{this.props.pop}</b>&emsp;<button>Delete</button></li>;
+return <li key={this.props.key1} onClick= {this.props.changeEvent}>Name: <b>{this.props.name}</b>, &emsp; Population:<b>{this.props.pop}</b>&emsp;Click To Delete</li>;
 }
 }
 
