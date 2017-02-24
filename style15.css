@@ -1,0 +1,17 @@
+*{
+  border:1px dotted black;  
+}
+
+p{
+  color:red;
+}
+
+span{
+  font-size:20px;
+  padding:2px;
+}
+
+input{
+  text-align: center;
+  width:80px;
+}
