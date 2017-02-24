@@ -3,6 +3,6 @@
  font-size: 12px;
 }
 
-button{
-	visibility: hidden;
+ul li:hover, ul li:focus {
+ color:red;
 }
