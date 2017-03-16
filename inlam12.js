@@ -18,7 +18,7 @@ function FetchData()
 {
  
   
-  fetch('http://forverkliga.se/JavaScript/api/simple.php?world=all')
+  fetch('https://forverkliga.se/JavaScript/api/simple.php?world=all')
   .then(function(response)
   {
     return response.json();
