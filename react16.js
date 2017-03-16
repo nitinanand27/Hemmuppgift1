@@ -9,7 +9,7 @@ this.state = {msg : 'fetching data...', filterText : '', jsonList : '', length :
 	
 componentDidMount() {
 	let self = this;
-	fetch('http://forverkliga.se/JavaScript/api/simple.php?world=all')
+	fetch('https://forverkliga.se/JavaScript/api/simple.php?world=all')
    .then(function(response){
 	   return response.json();
    })
